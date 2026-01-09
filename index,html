@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Brosur Lamaran Kerja</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e90ff, #00bcd4);
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        header p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #1e90ff;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .skill {
+            background: #1e90ff;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Lamaran Kerja</h1>
+    <p>Siswa SMK 1 Barumawati | Jaringan Komputer & Web Developer Pemula</p>
+</header>
+
+<section>
+    <div class="card">
+        <h2>Tentang Saya</h2>
+        <p>
+            Saya adalah siswa SMK 1 Barumawati yang memiliki minat dan kemampuan
+            di bidang teknologi informasi, khususnya jaringan komputer,
+            perakitan PC, serta pengembangan website sederhana.
+            Saya terbiasa bekerja dengan rapi, teliti, dan bertanggung jawab.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Pendidikan</h2>
+        <ul>
+            <li><strong>SMK 1 Barumawati</strong></li>
+            <li>Jurusan: Teknik Komputer dan Jaringan (TKJ)</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Keahlian</h2>
+        <div class="skills">
+            <div class="skill">Jaringan Komputer</div>
+            <div class="skill">Merakit PC</div>
+            <div class="skill">Instalasi Sistem Operasi</div>
+            <div class="skill">HTML & CSS</div>
+            <div class="skill">Website Sederhana</div>
+            <div class="skill">Troubleshooting</div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Tujuan</h2>
+        <p>
+            Saya berharap dapat bergabung di perusahaan Bapak/Ibu untuk
+            mengembangkan kemampuan saya serta memberikan kontribusi
+            yang terbaik dalam bidang IT.
+        </p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 | Web Brosur Lamaran Kerja</p>
+</footer>
+
+</body>
+</html>
